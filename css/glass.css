@@ -1,0 +1,33 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.nav-item:hover{
+
+background: rgba(255, 29, 240, 0.37);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(221, 255, 29, 0.3);
+}
+.viral-card-1{
+   
+background: rgba(255, 255, 255, 0.56);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.viral-card{
+background: rgba(255, 255, 255, 0.4);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.4);
+}
