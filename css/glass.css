@@ -6,13 +6,21 @@ body{
     
 }
 .nav-item:hover{
-
+ 
 background: rgba(255, 29, 240, 0.37);
 border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 30px rgba(231, 255, 10, 0.861);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(221, 255, 29, 0.3);
+border: 1px solid rgba(255, 29, 240, 0.3);
+}
+.active{
+    background: rgba(255, 29, 240, 0.37);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(231, 255, 10, 0.861);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 29, 240, 0.3);
 }
 .viral-card-1{
    
