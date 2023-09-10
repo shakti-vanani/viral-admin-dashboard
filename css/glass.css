@@ -9,6 +9,15 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+input:focus {
+   
+background: rgba(255, 191, 117, 0.36);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 191, 117, 0.67);
+  }
 .btn:hover{
     background: rgba(176, 255, 6, 0.875);
     border-radius: 16px;
