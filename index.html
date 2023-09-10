@@ -14,6 +14,7 @@
 
 
     <div class="container-fluid ">
+
         <div class="row p-2 mt-3 ms-auto" align="center">
             <div class="col-1 ms-5 viral-card ">
 
@@ -25,7 +26,7 @@
                         <a class="nav-link" href="data.html"> <i class="bi bi-bar-chart"></i> home 2</a>
                     </li>
                     <li class="nav-item viral-card-1 m-1">
-                        <a class="nav-link" href="#"> <i class="bi bi-bar-chart"></i> home 2</a>
+                        <a class="nav-link" href="form.html"> <i class="bi bi-info-circle"></i> form</a>
                     </li>
                     <li class="nav-item viral-card-1 m-1">
                         <a class="nav-link" href="#"> <i class="bi bi-bar-chart"></i> home 4</a>
@@ -41,22 +42,21 @@
 
                 </ul>
             </div>
-            <div class="col-10 m-2 viral-card">
+            <div class="col-10 m-2">
+                <div class="row viral-card  mt-3">
+                    demo
+                </div>
 
-                <div class="row  mt-3">
-                    <div class="col m-1">
-                        <div class="card  viral-card-1">
-                            demo
+                <div class="row viral-card mt-3">
+                    <div class="col viral-card-1 m-1">
+                        <div>
+                            <canvas id="myData"></canvas>
                         </div>
                     </div>
-                    <div class="col m-1">
-                        <div class="card  viral-card-1">
-                            demo
-                        </div>
-                    </div>
-                    <div class="col m-1">
-                        <div class="card  viral-card-1">
-                            demo
+
+                    <div class="col-3 m-1">
+                        <div>
+                            <canvas id="myData2"></canvas>
                         </div>
                     </div>
                 </div>
@@ -66,6 +66,51 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myData');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+
+        const data = document.getElementById('myData2'); {
+            labels: [
+                'Red',
+                'Blue',
+                'Yellow'
+            ],
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [300, 50, 100],
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)'
+                    ],
+                    hoverOffset: 4
+                }]
+        };
+    </script>
+
 </body>
 
 </html>
