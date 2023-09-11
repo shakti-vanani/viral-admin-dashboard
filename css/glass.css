@@ -1,9 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 body {
-    background: #FC5C7D;   
-    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);   
-    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 input:focus {
    
